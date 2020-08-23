@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-const ENDPOINT = "http://localhost:2000/CreateDonationLink";
+const ENDPOINT = "https://aieseccolombia.org:8442/CreateDonationLink";
 
 class App extends React.Component{
   constructor(props){
