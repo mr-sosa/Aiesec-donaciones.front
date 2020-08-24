@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 const ENDPOINT = "https://aieseccolombia.org:8442/CreateDonationLink";
 
