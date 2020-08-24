@@ -67,32 +67,31 @@ class App extends React.Component{
   render(){
     return(
       <div className="container">
-        <h1>Dona Seguro por PayU </h1>
         <div className="col shadow p-3">
           <div className="col align-self-center">
             <div className="row">
-              <h5>¿Cómo te gustaría hacer tu donación?</h5><br/>
+              <h3><font face="Lato">¿Cómo te gustaría hacer tu donación?</font></h3><br/>
             </div>
             <div className="row align-items-center">
               <div className="col">
-                <button onClick={this.generarDonacion} value="20000" type="button" className="btn btn-outline-primary">$20.000</button>
-              </div>
+                <button onClick={this.generarDonacion} value="20000" type="button" className="btn btn-outline-primary"><font face="Lato" size="4">$20.000</font></button>
+                </div><br/><br/>
               <div className="col">
-                <button onClick={this.generarDonacion} value="50000" type="button" className="btn btn-outline-primary">$50.000</button>
-              </div>
+                <button onClick={this.generarDonacion} value="50000" type="button" className="btn btn-outline-primary"><font face="Lato" size="4">$50.000</font></button>
+                </div><br/><br/>
               <div className="col">
-                <button onClick={this.generarDonacion} value="100000" type="button" className="btn btn-outline-primary">$100.000</button>
-              </div>
+                <button onClick={this.generarDonacion} value="100000" type="button" className="btn btn-outline-primary"><font face="Lato" size="4">$100.000</font></button>
+                </div><br/><br/>
               <div className="col-sm-auto">
                 <form onSubmit={this.onSubmit}>
-                  <div className="row">
-                    <label className=""><span className="text-muted">Otro monto (COL$) : </span></label>
+                  <div className="row"><br/>
+                    <label className=""><span className="text-muted"><font face="Lato" size="3">Otro monto (COL$) : </font></span></label>
                   </div>
                   <div className="row">
                     <div className="input-group">
                       <input onChange={this.handleChange} type="number" min="20000" className="form-control" name="amount"/>
                       <div className="input-group-append">
-                        <button type="submit" className="btn btn-outline-primary">Donar</button>
+                        <button type="submit" className="btn btn-outline-primary"><font face="Lato" size="3">Donar</font></button>
                       </div>
                     </div>
                   </div>      
